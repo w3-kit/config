@@ -1,0 +1,31 @@
+{
+  "name": "@w3-kit/config",
+  "version": "0.1.0",
+  "description": "Shared configs for the w3-kit org",
+  "type": "module",
+  "exports": {
+    "./eslint": "./eslint/index.js",
+    "./typescript/base": "./typescript/base.json",
+    "./typescript/react": "./typescript/react.json",
+    "./typescript/node": "./typescript/node.json",
+    "./prettier": "./prettier/index.js",
+    "./tailwind": "./tailwind/index.ts"
+  },
+  "files": [
+    "eslint",
+    "typescript",
+    "prettier",
+    "tailwind"
+  ],
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.0.0",
+    "typescript-eslint": "^8.0.0",
+    "globals": "^15.0.0"
+  },
+  "license": "MIT"
+}
