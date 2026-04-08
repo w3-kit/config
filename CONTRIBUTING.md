@@ -21,6 +21,30 @@ Thanks for your interest in contributing to w3-kit's shared configs!
 
 Check [open issues](https://github.com/w3-kit/config/issues) for ideas.
 
+## Local development
+
+```bash
+git clone https://github.com/YOUR_USERNAME/config.git
+cd config
+npm install
+```
+
+### Testing configs locally
+
+Link the package locally and test in another w3-kit repo:
+
+```bash
+npm link
+cd ../cli  # or any other repo
+npm link @w3-kit/config
+```
+
+### Run all CI checks locally
+
+```bash
+npm run lint && npm run format:check
+```
+
 ## Guidelines
 
 - Keep configs minimal and well-documented
