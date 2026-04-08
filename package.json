@@ -17,6 +17,10 @@
     "prettier",
     "tailwind"
   ],
+  "scripts": {
+    "lint": "eslint eslint/ prettier/ tailwind/ typescript/",
+    "format:check": "prettier --check eslint/ prettier/ tailwind/ typescript/"
+  },
   "peerDependencies": {
     "eslint": "^9.0.0",
     "prettier": "^3.0.0",
@@ -24,8 +28,13 @@
   },
   "dependencies": {
     "@eslint/js": "^9.0.0",
-    "typescript-eslint": "^8.0.0",
-    "globals": "^15.0.0"
+    "globals": "^15.0.0",
+    "typescript-eslint": "^8.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^10.2.0",
+    "prettier": "^3.8.1",
+    "typescript": "^6.0.2"
+  }
 }
