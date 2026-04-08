@@ -1,5 +1,9 @@
 # @w3-kit/config
 
+[![CI](https://github.com/w3-kit/config/actions/workflows/ci.yml/badge.svg)](https://github.com/w3-kit/config/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@w3-kit/config)](https://www.npmjs.com/package/@w3-kit/config)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
 Shared configs for the w3-kit org.
 
 ## Usage
