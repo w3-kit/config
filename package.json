@@ -18,11 +18,11 @@
     "tailwind"
   ],
   "scripts": {
-    "lint": "eslint eslint/ prettier/ tailwind/ typescript/",
+    "lint": "eslint eslint/ prettier/ tailwind/",
     "format:check": "prettier --check eslint/ prettier/ tailwind/ typescript/"
   },
   "peerDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": ">=9.0.0",
     "prettier": "^3.0.0",
     "typescript": "^5.3.0"
   },
